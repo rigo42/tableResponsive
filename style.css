@@ -15,7 +15,7 @@ h1 {
 }
 table * {height: auto; min-height: none;} /* fixed ie9 & <*/
 table {
-  background: #15BFCC;
+  background: green;
   table-layout: fixed;
   margin: 1rem auto;
   width: 98%;
@@ -88,7 +88,7 @@ th:last-child, td:last-child {
   tr {
     border-bottom: 2px solid rgba(0,0,0,.35);
   }
-  tbody tr:nth-child(odd) {background: #15BFCC;}
+  tbody tr:nth-child(odd) {background: green;}
   tbody tr:nth-child(even) {background:#FF7361;}
   td {
     display: block;
