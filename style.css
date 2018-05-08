@@ -25,7 +25,7 @@ table {
   border-top: 0 none;
 }
 thead {
-  background: #FF7361;
+  background: green;
   text-align: center;
   z-index: 2;
 }
@@ -89,7 +89,7 @@ th:last-child, td:last-child {
     border-bottom: 2px solid rgba(0,0,0,.35);
   }
   tbody tr:nth-child(odd) {background: green;}
-  tbody tr:nth-child(even) {background:#FF7361;}
+  tbody tr:nth-child(even) {background:green;}
   td {
     display: block;
     width: 100%;
@@ -120,4 +120,4 @@ th:last-child, td:last-child {
     background: rgba(0,0,0,.2);
   }
 }
-a {color: #FF7361}
+a {color: green}
